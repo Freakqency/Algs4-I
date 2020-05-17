@@ -1,0 +1,19 @@
+Test 16: check for backwash with predetermined sites
+  * filename = input20.txt
+  * filename = input10.txt
+  * filename = input50.txt
+  * filename = jerry47.txt
+  * filename = sedgewick60.txt
+  * filename = wayne98.txt
+
+    
+        ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        OperationCountLimitExceededException
+        Number of calls to methods in WeightedQuickUnionUF exceeds limit: 250000000
+        ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+==> FAILED
+
+Test 2 (bonus): check that total memory <= 11 n^2 + 128 n + 1024 bytes
+   -  failed memory test for n = 64
+==> FAILED
